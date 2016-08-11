@@ -15,6 +15,8 @@
 		4FFBD2131D5C4B5200B0AE4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FFBD2111D5C4B5200B0AE4A /* LaunchScreen.storyboard */; };
 		4FFBD21E1D5C4B5200B0AE4A /* GJYBlockMovementColletionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFBD21D1D5C4B5200B0AE4A /* GJYBlockMovementColletionViewTests.m */; };
 		4FFBD2291D5C4B5200B0AE4A /* GJYBlockMovementColletionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFBD2281D5C4B5200B0AE4A /* GJYBlockMovementColletionViewUITests.m */; };
+		4FFBD2371D5C55C700B0AE4A /* personalTailorUrl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FFBD2361D5C55C700B0AE4A /* personalTailorUrl.plist */; };
+		4FFBD23A1D5C563F00B0AE4A /* PersonalTailor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFBD2391D5C563F00B0AE4A /* PersonalTailor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		4FFBD2241D5C4B5200B0AE4A /* GJYBlockMovementColletionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GJYBlockMovementColletionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FFBD2281D5C4B5200B0AE4A /* GJYBlockMovementColletionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GJYBlockMovementColletionViewUITests.m; sourceTree = "<group>"; };
 		4FFBD22A1D5C4B5200B0AE4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FFBD2361D5C55C700B0AE4A /* personalTailorUrl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = personalTailorUrl.plist; sourceTree = "<group>"; };
+		4FFBD2381D5C563F00B0AE4A /* PersonalTailor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalTailor.h; sourceTree = "<group>"; };
+		4FFBD2391D5C563F00B0AE4A /* PersonalTailor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalTailor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +110,11 @@
 				4FFBD2071D5C4B5200B0AE4A /* AppDelegate.m */,
 				4FFBD2091D5C4B5200B0AE4A /* ViewController.h */,
 				4FFBD20A1D5C4B5200B0AE4A /* ViewController.m */,
+				4FFBD2381D5C563F00B0AE4A /* PersonalTailor.h */,
+				4FFBD2391D5C563F00B0AE4A /* PersonalTailor.m */,
 				4FFBD20C1D5C4B5200B0AE4A /* Main.storyboard */,
 				4FFBD20F1D5C4B5200B0AE4A /* Assets.xcassets */,
+				4FFBD2361D5C55C700B0AE4A /* personalTailorUrl.plist */,
 				4FFBD2111D5C4B5200B0AE4A /* LaunchScreen.storyboard */,
 				4FFBD2141D5C4B5200B0AE4A /* Info.plist */,
 				4FFBD2031D5C4B5200B0AE4A /* Supporting Files */,
@@ -246,6 +254,7 @@
 				4FFBD2131D5C4B5200B0AE4A /* LaunchScreen.storyboard in Resources */,
 				4FFBD2101D5C4B5200B0AE4A /* Assets.xcassets in Resources */,
 				4FFBD20E1D5C4B5200B0AE4A /* Main.storyboard in Resources */,
+				4FFBD2371D5C55C700B0AE4A /* personalTailorUrl.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +281,7 @@
 			files = (
 				4FFBD20B1D5C4B5200B0AE4A /* ViewController.m in Sources */,
 				4FFBD2081D5C4B5200B0AE4A /* AppDelegate.m in Sources */,
+				4FFBD23A1D5C563F00B0AE4A /* PersonalTailor.m in Sources */,
 				4FFBD2051D5C4B5200B0AE4A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

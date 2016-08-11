@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "PersonalTailor.h"
 
 
 static NSString *const kCell = @"kCell";
@@ -32,6 +33,13 @@ static NSString *const kCell = @"kCell";
     _colletionView.dataSource = self;
     
     [_colletionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:kCell];
+
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"personalTailorUrl.plist" ofType:nil];
+    
+    NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:path];
+    
+    PersonalTailor *personalModel = [PersonalTailor personalModelWithDict:dict];
+    
 }
 
 #pragma mark - UIColletionViewDatasouce 
@@ -51,6 +59,19 @@ static NSString *const kCell = @"kCell";
     cell.backgroundColor = [UIColor colorWithRed:((float)arc4random_uniform(256) / 255.0) green:((float)arc4random_uniform(256) / 255.0) blue:((float)arc4random_uniform(256) / 255.0) alpha:1.0];
     
     return cell;
+}
+
+#pragma mark - UICollectionViewDelegate
+
+- (BOOL) collectionView:(UICollectionView *)collectionView shouldSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    
+    NSLog(@"%@",indexPath);
+    return YES;
+}
+
+- (void) collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    
+    NSLog(@"选中");
 }
 
 

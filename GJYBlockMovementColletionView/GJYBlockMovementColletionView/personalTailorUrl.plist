@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>callback</key>
+	<string>1007</string>
+	<key>nav</key>
+	<array>
+		<string>推荐</string>
+		<string>网游</string>
+		<string>魔兽世界</string>
+		<string>视频</string>
+		<string>cos</string>
+		<string>星际争霸</string>
+		<string>侠盗猎车3</string>
+		<string>剑网3</string>
+	</array>
+	<key>prefer</key>
+	<array>
+		<string>300英雄</string>
+		<string>CS</string>
+		<string>星际争霸</string>
+		<string>魔兽争霸</string>
+		<string>DOTA</string>
+		<string>使命召唤</string>
+		<string>侠盗猎车2</string>
+		<string>侠盗猎车3</string>
+		<string>侠盗猎车6</string>
+		<string>辐射4</string>
+		<string>天龙八部</string>
+		<string>诛仙</string>
+		<string>剑灵</string>
+		<string>永恒之塔</string>
+		<string>剑网3</string>
+		<string>COC</string>
+		<string>刀塔传奇</string>
+		<string>炉石传说</string>
+		<string>极品飞车13</string>
+		<string>小黄人大冒险</string>
+		<string>荒岛求生</string>
+		<string>饥荒</string>
+		<string>古墓丽影</string>
+		<string>神秘海域</string>
+		<string>生化危机</string>
+	</array>
+</dict>
+</plist>
